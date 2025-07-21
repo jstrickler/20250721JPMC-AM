@@ -8,6 +8,8 @@ print()
 print('Guido is the ex-"BDFL" of Python')
 print()
 print("""Guido's the ex-"BDFL" of Python""")
+print("Guido's the ex-\"BDFL\" of Python")
+
 
 query = """
 select * 
