@@ -22,5 +22,7 @@ for row in people:
 print()
 
 for first_name, last_name, _ in people:  # a for loop unpacks if there is more than one variable
+    # fn, ln, _ = people[0]
+    # ...
     print(first_name, last_name)
 print()

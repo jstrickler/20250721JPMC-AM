@@ -1,3 +1,5 @@
+a = []   # empty list
+b = list()  # empty list
 cities = ['Portland', 'Pittsburgh', 'Peoria']
 print(f"cities: {cities}\n")
 
@@ -30,3 +32,6 @@ print(f"city: {city}")
 print(f"cities: {cities}\n")
 
 # del LIST[idx]  LIST.remove(value) LIST.pop() LIST.pop(idx)    
+
+cities[2] = "Harrisburg"
+print(f"{cities = }")

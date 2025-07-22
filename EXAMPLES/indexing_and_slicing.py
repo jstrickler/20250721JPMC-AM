@@ -21,3 +21,14 @@ print(f"{fruits[-5:] = }\n") # last 5 elements (index -5, -4, ...)
 
 print(f"{fruits[1:-1] = }\n")  # all but first and last
 print(f"{fruits[:-10] = }\n")  # all but last 10
+
+print(f"{fruits = }")
+
+del fruits[2:5]
+print(f"{fruits = }")
+
+print(fruits[3:12:2])
+
+place = "Manila"
+print(place[:3])
+print(place[2:5]    )

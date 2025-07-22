@@ -1,3 +1,5 @@
+#   obj, obj, ...
+
 person = "Bill", "Gates", "Microsoft", "1955-10-28"
 print(person, "\n")
 
