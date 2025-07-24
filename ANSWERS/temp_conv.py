@@ -25,3 +25,10 @@ def f2c(fahrenheit):
     celsius = (fahrenheit - 32) * (5.0 / 9)
 
     return celsius
+
+if __name__ == "__main__":
+    f = c2f(100)
+    print(f"{f = }")
+    c = f2c(212)
+    print(f"{c = }")
+    
